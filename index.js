@@ -1,5 +1,5 @@
-const { Telegraf, Markup, deunionize } = require('telegraf')
-// node index.js,npm run dev
+const { Telegraf, Markup } = require('telegraf')
+// npm run dev
 require('dotenv').config()
 const text = require('./const')
 const bot = new Telegraf('5503766550:AAGyeNyFciD9PqcNRpvmWK-UHT8oP_LoquM')
