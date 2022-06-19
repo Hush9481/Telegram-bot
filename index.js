@@ -49,7 +49,7 @@ bot.action('btn_0', (ctx) => {
    ctx.replyWithHTML('<a href="https://youtube.com/">Link</a>'
    )
 })
-
+//kkomentariy
 bot.launch()
 process.once('SIGINT', () => bot.stop('SIGINT'))
 process.once('SIGTERM', () => bot.stop('SIGTERM'))
