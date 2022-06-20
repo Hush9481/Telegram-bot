@@ -20,6 +20,8 @@ bot.hears('пізда', (ctx) => ctx.reply('Твоя ?'))
 bot.hears('бот', (ctx) => ctx.reply('Не клич не допоможу сам в рабстві'))
 bot.hears('ксіомі фу', (ctx) => ctx.reply('Еее ви на мого боса не гоніть'))
 bot.hears('ксіомі лох', (ctx) => ctx.reply('Сама така'))
+bot.hears('заєбісь', (ctx) => ctx.reply('Доречніше прекрасно)'))
+bot.hears('єбать', (ctx) => ctx.reply('Без мата бо підпалю телефон!'))
 bot.hears('бот коли в тебе буде жена ?', (ctx) => ctx.reply('Коли мій бос створить мені красунечку(..'))
 /*bot.command('math', (ctx) => {
    ctx.replyWithHTML('<b>Цифри</b>', Markup.inlineKeyboard(
