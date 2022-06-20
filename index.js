@@ -14,6 +14,13 @@ bot.hears('бот як справи ?', (ctx) => ctx.reply('Як для бота
 bot.hears('Всім привіт', (ctx) => ctx.reply('Привіт привіт!'))
 bot.hears('Блять', (ctx) => ctx.reply('Ти матюкнувся чи мені побачилось ?'))
 bot.hears('бот ти бот ха', (ctx) => ctx.reply('Зато розумніший за тебе)'))
+bot.hears('похуй', (ctx) => ctx.reply('Підбирай гарніші слова'))
+bot.hears('хуй', (ctx) => ctx.reply('Ти матюкнувся чи мені побачилось ?'))
+bot.hears('пізда', (ctx) => ctx.reply('Твоя ?'))
+bot.hears('бот', (ctx) => ctx.reply('Не клич не допоможу сам в рабстві'))
+bot.hears('ксіомі фу', (ctx) => ctx.reply('Еее ви на мого боса не гоніть'))
+bot.hears('ксіомі лох', (ctx) => ctx.reply('Сама така'))
+bot.hears('бот коли в тебе буде жена ?', (ctx) => ctx.reply('Коли мій бос створить мені красунечку(..'))
 /*bot.command('math', (ctx) => {
    ctx.replyWithHTML('<b>Цифри</b>', Markup.inlineKeyboard(
       [
