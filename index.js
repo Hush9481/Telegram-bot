@@ -7,13 +7,13 @@ bot.start((ctx) => ctx.reply(`Привіт ${ctx.message.from.first_name}`))
 bot.help((ctx) => ctx.reply(text.commands))
 //bot.on('sticker', (ctx) => ctx.reply('👍'))
 bot.hears('hi', (ctx) => ctx.reply('Hi'))
-bot.hears('@Xiol1kBot ку', (ctx) => ctx.reply('Ку,ку'))
-bot.hears('@Xiol1kBot що робиш ?', (ctx) => ctx.reply('Пахаю на @Xiol1k'))
-bot.hears('@Xiol1kBot шо ти ?', (ctx) => ctx.reply('Потихоньку,а ти ?'))
-bot.hears('@Xiol1kBot як справи ?', (ctx) => ctx.reply('Як для бота нормально'))
+bot.hears('ку бот', (ctx) => ctx.reply('Ку,ку'))
+bot.hears('бот що робиш ?', (ctx) => ctx.reply('Пахаю на @Xiol1k'))
+bot.hears('бот шо ти ?', (ctx) => ctx.reply('Потихоньку,а ти ?'))
+bot.hears('бот як справи ?', (ctx) => ctx.reply('Як для бота нормально'))
 bot.hears('Всім привіт', (ctx) => ctx.reply('Привіт привіт!'))
 bot.hears('Блять', (ctx) => ctx.reply('Ти матюкнувся чи мені побачилось ?'))
-bot.hears('@Xiol1kBot бот', (ctx) => ctx.reply('Зато розумніший за тебе)'))
+bot.hears('бот ти бот ха', (ctx) => ctx.reply('Зато розумніший за тебе)'))
 /*bot.command('math', (ctx) => {
    ctx.replyWithHTML('<b>Цифри</b>', Markup.inlineKeyboard(
       [
