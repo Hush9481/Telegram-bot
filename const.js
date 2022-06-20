@@ -1,2 +1,2 @@
-const commands = '/start-Перезапустити бота /help-Допомога /math-цифри'
+const commands = 'Це чат бот нічого більше)'
 module.exports.commands = commands
