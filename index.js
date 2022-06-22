@@ -2,7 +2,7 @@ const { Telegraf, Markup } = require('telegraf')
 // npm run dev
 require('dotenv').config()//1
 const text = require('./const')
-const bot = new Telegraf(process.env.BOT_TOKEN)
+const bot = new Telegraf('5503766550:AAGyeNyFciD9PqcNRpvmWK-UHT8oP_LoquM')
 bot.start((ctx) => ctx.reply(`Привіт ${ctx.message.from.first_name, 'Я чат-бот створенний щоб веселити чат,жми /help щоб дізнатись що я можу'}`))
 bot.help((ctx) => ctx.reply('Пропишіть команду: /what'))
 //bot.on('sticker', (ctx) => ctx.reply('👍'))
